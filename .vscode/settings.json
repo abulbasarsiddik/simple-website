@@ -1,0 +1,7 @@
+{
+  "editor.linkedEditing": true,
+  "prettier.requireConfig": true,
+  "prettier.requirePragma": true,
+  "prettier.useTabs": true,
+  "liveServer.settings.port": 5501
+}

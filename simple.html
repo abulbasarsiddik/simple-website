@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Web Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="simple.css" />
+    <link rel="stylesheet" type="text/css" href="simple responsiv.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logomain">
+          <h1>Tom Tech<span>©</span></h1>
+          <!-- [0] -->
+        </div>
+        <div class="navbarmain">
+          <ul id="navbarul">
+            <li>Home</li>
+            <li>Project</li>
+            <li>Portfolio</li>
+            <li class="servicedrop">
+              Service<i id="showdropdown" class="fas fa-caret-down"></i>
+              <ul id="servicetooltrip" class="fun2">
+                <li>SEO Service</li>
+                <li>Web Devlopment</li>
+                <li>React.js</li>
+                <li>Next.js</li>
+              </ul>
+            </li>
+            <li class="servicedrop1">
+              Pricing<i id="showdropdown1" class="fas fa-caret-down"></i>
+              <ul id="servicetooltrip1" class="fun3">
+                <li>Basic Pack</li>
+                <li>Famous Pack</li>
+                <li>Standard Pack</li>
+              </ul>
+            </li>
+            <li>About Us</li>
+            <li>
+              <i class="fas fa-search"></i
+              ><!-- [0] i -->
+            </li>
+            <!-- [up all li 13th] -->
+          </ul>
+        </div>
+      </div>
+    </header>
+    <header>
+      <div id="fristcontn" class="fristcontentmain">
+        <div class="firstcontentimgmain">
+          <div class="firstcontentimg">
+            <img src="3.jpg" alt="" />
+            <!-- [0] -->
+          </div>
+          <div class="firstcontenttext">
+            <i class="fas fa-chart-bar" id="faxs"></i>
+            <img id="svgimg" src="" alt="" />
+            <!-- [1] -->
+            <h1>Our SEO Service</h1>
+            <!-- [1] -->
+            <div id="dasline1"></div>
+            <p>
+              <!-- [0] -->
+              !!!----Worlds best SEO Service is here----!!!.We have compleate
+              One Thowsent SEO project.Our SEO basic Service provide 1000
+              Back-links.And Compleate On Page SEO, Off-Page SEO.
+            </p>
+
+            <button>Get Started</button
+            ><!-- [0] -->
+            <button>Veiw On Youtube</button
+            ><!-- [1] -->
+          </div>
+        </div>
+        <div class="changimgcontent">
+          <div onclick="changimg0()" class="imgcontent" id="changeimg0"></div>
+          <div onclick="changimg1()" class="imgcontent" id="changeimg1"></div>
+          <div onclick="changimg2()" class="imgcontent" id="changeimg2"></div>
+        </div>
+      </div>
+    </header>
+    <!--     ///////////////////////////////////// -->
+    <header>
+      <div class="pricingmain">
+        <div class="pricetoptext">
+          <h1>Coustomize Your Pack</h1>
+          <!-- [2] -->
+          <div id="dasline22"></div>
+        </div>
+        <div class="pricepackmain">
+          <div onclick="prizechang1()" class="pricepack">
+            <h1>Basic Pack</h1>
+            <!-- [3] -->
+          </div>
+          <div onclick="prizechang2()" class="pricepack">
+            <h1>Standerd Pack</h1>
+            <!-- [4] -->
+          </div>
+          <div onclick="prizechang3()" class="pricepack">
+            <h1>Special Pack</h1>
+            <!-- [5] -->
+          </div>
+        </div>
+        <div class="pricepackmain">
+          <div class="priceingall">
+            <h1>SEO</h1>
+            <!-- [6] -->
+            <div class="dasline3"></div>
+            <p>This is Basic pack Service Plan.</p>
+            <!-- [1] -->
+            <div class="pricedescicon">
+              <ul>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <!-- [all li 18th] -->
+              </ul>
+            </div>
+            <ul>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <!-- [all li 23th] -->
+            </ul>
+            <div class="startdiv">
+              <h2>100/<b>$</b></h2>
+              <!-- [0] -->
+
+              <button>Start Now</button
+              ><!-- [2] -->
+            </div>
+          </div>
+          <div class="priceingall">
+            <h1>Web Designe</h1>
+            <!-- [7] -->
+            <div class="dasline3"></div>
+            <p>This is Basic pack Service Plan.</p>
+            <!-- [2] -->
+            <div class="pricedescicon">
+              <ul>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <!-- [all li 28th] -->
+              </ul>
+            </div>
+            <ul>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <!-- [all li 33th] -->
+            </ul>
+            <div class="startdiv">
+              <h2>100/<b>$</b></h2>
+              <!-- [1] -->
+              <button>Start Now</button
+              ><!-- [3] -->
+            </div>
+          </div>
+          <div class="priceingall">
+            <h1>Web Devlopment</h1>
+            <!-- [9] -->
+            <div class="dasline3"></div>
+            <p>This is Basic pack Service Plan.</p>
+            <!-- [3] -->
+            <div class="pricedescicon">
+              <ul>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <li><img src="arrow-alt-circle-right.svg" alt="" /></li>
+                <!-- [all li 38th] -->
+              </ul>
+            </div>
+            <ul>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <!-- [all li 43th] -->
+            </ul>
+            <div class="startdiv">
+              <h2>100/<b>$</b></h2>
+              <!-- [2] -->
+              <button>Start Now</button
+              ><!-- [4] -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header>
+      <div class="ourportfoliomain">
+        <div class="portfoliotoptext">
+          <h1>SEE OUR PORTFOLIO</h1>
+          <div id="dasline5"></div>
+          <!-- [10] -->
+        </div>
+        <div class="ourportfoliomain2">
+          <div class="howofknow">
+            <div class="dooffer">
+              <h1>What We Do Offer</h1>
+              <div id="dasline6"></div>
+            </div>
+            <div class="howoffall">
+              <b>HTML</b>
+              <span class="progress__bar" style="--color: red; --percent: 90%"></span>
+            </div>
+            <div class="howoffall">
+              <b>CSS</b>
+              <span class="progress__bar" style="--color: blue; --percent: 80%"></span>
+            </div>
+             <div class="howoffall">
+              <b>Bootstrap</b>
+              <span class="progress__bar" style="--color: rgb(0, 255, 242); --percent: 70%"></span>
+            </div>
+            <div class="howoffall">
+               <b>JavaScript</b>
+              <span class="progress__bar" style="--color: green; --percent: 60%"></span>
+             </div>
+            <div class="howoffall">
+              <b>JQuery</b>
+             <span class="progress__bar" style="--color: orange; --percent: 50%"></span>
+            </div>
+            <div class="howoffall">
+               <b>Angular 4/5/6</b>
+              <span class="progress__bar" style="--color: navy; --percent: 40%"></span>
+            </div>
+            <div class="howoffall">
+              <b>React.Js</b>
+              <span class="progress__bar" style="--color: yellow; --percent: 30%"></span>
+            </div>
+            <div class="howoffall">
+              <b>SEO</b>
+              <span class="progress__bar" style="--color: rgb(255, 7, 214); --percent: 95%"></span>
+            </div>
+          </div>
+          <div class="portfoliomain">
+            <h1>Portfolio</h1>
+           <div id="dasline7"></div>
+              <div class="portfolioall">
+              <div class="portdivicon"><i class="fas fa-chart-bar" id="faxs"></i></div>
+              <div class="portalltext">
+                 <h2>SEO</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, delectus?</p>
+              <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+            </div>
+              </div>
+            <div class="portfolioall">
+              <div class="portdivicon"><i class="fas fa-layer-group"></i></div>
+              <div class="portalltext">
+                 <h2>Web Designe</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, delectus?</p>
+               <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+            </div>
+            </div>
+            <div class="portfolioall">
+              <div class="portdivicon"><i class="fab fa-dev"></i></div>
+             <div class="portalltext">
+                 <h2>Web Devlopment</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, delectus?</p>
+               <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+            </div>
+            </div>
+            <div class="portfolioall">
+              <div class="portdivicon"><i class="fas fa-align-justify"></i></div>
+              <div class="portalltext">
+                 <h2>Others Skill</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, delectus?</p>
+               <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+            </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </header>
+    <header>
+      <div class="ourteammain">
+        <h1>Our All Staff</h1>
+        <div id="dasline5"></div>
+        <div id="slide-arrw"><i class="fas fa-chevron-right"></i></div>
+        <div id="slide-arrw1"><i class="fas fa-chevron-left"></i></div>
+        <div class="ourteammain2">
+          <div class="ourteamall" id="ourteam-slid">
+            <h1><i class="fas fa-star-half-alt"></i>Top Rated </h1>
+            <img src="1.png" alt="">
+            <h2>SEO Expart-Social Media Expart</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+               Omnis, ipsum illo illum aspernatur libero consectetur.</p>
+              <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="ourteamall">
+            <h1><i class="fas fa-star-half-alt"></i>Top Rated </h1>
+            <img src="1.png" alt="">
+            <h2>SEO Expart-Social Media Expart</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+               Omnis, ipsum illo illum aspernatur libero consectetur.</p>
+              <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="ourteamall">
+            <h1><i class="fas fa-star-half-alt"></i>Top Rated </h1>
+            <img src="14.jpg" alt="">
+            <h2>SEO Expart-Social Media Expart</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+               Omnis, ipsum illo illum aspernatur libero consectetur.</p>
+              <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="ourteamall">
+            <h1><i class="fas fa-star-half-alt"></i>Top Rated </h1>
+            <img src="15.jpg" alt="">
+            <h2>SEO Expart-Social Media Expart</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+               Omnis, ipsum illo illum aspernatur libero consectetur.</p>
+              <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="ourteamall"id="ourteam-slid2">
+            <h1><i class="fas fa-star-half-alt"></i>Top Rated </h1>
+            <img src="1.png" alt="">
+            <h2>SEO Expart-Social Media Expart</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+               Omnis, ipsum illo illum aspernatur libero consectetur.</p>
+              <a href="#">Learn More<i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header>
+      <div class="subscribmain">
+        <div class="subscribmain2">
+           <h1>Get In Touch</h1>
+           <div class="dasline9"></div>
+            <div class="subswrite-input">
+              <input type="text" id="input-space" placeholder="Enter Your E-mail">
+              <input type="submit" id="submit-btn">
+            </div>
+            <div class="socialiconmain">
+              <ul id="sociallist">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i class="fab fa-git"></i></li>
+                <li><i class="fab fa-whatsapp"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </header>
+    <footer>
+      <hr/>
+      <div class="fottermain">
+        <div class="fottermain2">
+          <div class="fotterall">
+            <h1>About Us</h1>
+            <div class="dasline9"></div>
+            <div class="fabouttext">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Eos sunt ut quas tenetur, architecto doloribus odio est 
+               officiis vel laborum laudantium dolorem dute.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Neque ab, dolor laborum error provident and this is an exercitationem 
+              laudantium dolorem non numquam an odio! Eos sunt ut quas 
+              tenetur compleat plan of success.</p>
+            </div>
+          </div>
+          <div class="fotterall">
+            <h1>Contact Us</h1>
+            <div class="dasline9"></div>
+            <div class="fcontactlist">
+              <ul>
+              <li><address>Country:Dhaka-Bangladesh</address></li>
+              <li><address>City:Chadpur-sodor-chitagong</address></li>
+                <li><address>Post:Kaliyapara-Sahrasty</address></li>
+              <li><address>E-mail:Abulbasarsiddik@gmail.com</address></li>
+              <li><address>Phone:01792294207</address></li>
+            </ul>
+            </div>
+            
+          </div>
+          <div class="fotterall">
+            <h1>UseFull Links</h1>
+            <div class="dasline9"></div>
+            <div class="fusfulllink">
+              <ul>
+                <li>Home</li>
+                <li>Project</li>
+                <li>Portfolio</li>
+                <li>Service</li>
+                <li>Pricing</li>
+                <li>About Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="simple.js"></script>
+  </body>
+</html>
